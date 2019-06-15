@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.exerciseapp.activity.SHaredPreferenceActivity">
+
+    <EditText
+        android:id="@+id/edit_one"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        />
+    <TextView
+        android:id="@+id/text_get_sp_one"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="点击获取SP保存的数据"
+        android:gravity="center"
+        android:background="@color/colorFifteen"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/text_result_one"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="获取SP保存的数据成功"
+        android:gravity="center"
+        android:background="@color/colorNineTeen"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>

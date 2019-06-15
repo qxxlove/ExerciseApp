@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff000"
+    >
+
+    <TextView
+        android:id="@+id/text_left_click"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorFifteen"
+        android:text="我是左边的Fragment"
+        android:gravity="center"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/text_time_dealWith_before"
+        android:layout_width="match_parent"
+        android:background="@color/colorFifteen"
+        android:layout_height="40dp"
+        android:text="时间空格处理之前"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/text_time_dealWith_after"
+        android:layout_width="match_parent"
+        android:background="@color/colorFifteen"
+        android:layout_height="40dp"
+        android:text="时间空格处理"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        />
+
+
+</LinearLayout>

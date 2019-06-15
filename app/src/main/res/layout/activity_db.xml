@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.exerciseapp.activity.DBActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="此处只是演示功能，不能连续操作同样的动作，
+        因为涉及到主键id"
+        android:gravity="center"
+        android:background="@color/colorFifteen"
+
+        />
+    <TextView
+        android:id="@+id/text_create_db"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="创建数据库"
+        android:gravity="center"
+        android:background="@color/colorFifteen"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/text_exeSql_add"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="SQL语句之增"
+        android:gravity="center"
+        android:background="@color/colorFifteen"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/text_exeSql_update"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="SQL语句之改"
+        android:gravity="center"
+        android:background="@color/colorFifteen"
+        android:layout_marginTop="10dp"
+
+        />
+    <TextView
+        android:id="@+id/text_exeSql_delete"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="SQL语句之删"
+        android:gravity="center"
+        android:background="@color/colorFifteen"
+        android:layout_marginTop="10dp"
+
+        />
+    <TextView
+        android:id="@+id/text_SqlAPI_add"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="SQLAPI之增"
+        android:gravity="center"
+        android:background="@color/colorFifteen"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/text_SqlAPI_update"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="SQLAPI之改"
+        android:gravity="center"
+        android:background="@color/colorFifteen"
+        android:layout_marginTop="10dp"
+
+        />
+    <TextView
+        android:id="@+id/text_SqlAPI_delete"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="SQLAPI之删"
+        android:gravity="center"
+        android:background="@color/colorFifteen"
+        android:layout_marginTop="10dp"
+
+        />
+    <TextView
+        android:id="@+id/text_tranlation"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="SQL之事物操作
+        (插入100条数据,前提保证数据库数据为空)"
+        android:gravity="center"
+        android:background="@color/colorFifteen"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/text_Sql_raw"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="SQLAPI之查"
+        android:gravity="center"
+        android:background="@color/colorFifteen"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>

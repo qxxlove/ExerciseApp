@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorFifteen"
+    tools:context="com.example.dell.exerciseapp.activity.BroadCastActivity">
+
+    <TextView
+        android:id="@+id/text_send_one"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="发送广播（静态方式注册）"
+        android:gravity="center"
+        android:background="@color/colorFive"
+        />
+
+    <TextView
+        android:id="@+id/text_send_two"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="发送广播（动态方式注册）"
+        android:gravity="center"
+        android:background="@color/colorFive"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/text_send_three"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="发送本地广播"
+        android:gravity="center"
+        android:background="@color/colorFive"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/text_send_four"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="发送用户下线广播"
+        android:gravity="center"
+        android:background="@color/colorFive"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>

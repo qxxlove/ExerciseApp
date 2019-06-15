@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.exerciseapp">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 网络状态权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 开机完成 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- 读写权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 打电话权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 联系人权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.RecyclerViewStudyActivity" />
+        <activity android:name=".activity.FragmentActivity" />
+        <activity android:name=".activity.BroadCastActivity" />
+
+        <!-- 开机启动监听广播 -->
+        <receiver
+            android:name=".receiver.BootCompleteReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <!-- 静态方式注册广播 -->
+        <receiver android:name=".receiver.MyBroadCastReceiver">
+            <intent-filter>
+                <action android:name="com.example.dell.exerciseapp.receiver.MyBroadCastReceiver" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.MyBroadCastTwoReceiver" />
+        <receiver
+            android:name=".receiver.UserOnlineReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".activity.SHaredPreferenceActivity" />
+        <activity android:name=".activity.DBActivity" />
+        <activity android:name=".activity.DBTwoActivity" />
+        <activity android:name=".activity.DBThreeActivity" />
+        <activity android:name=".activity.PathActivity" />
+        <activity android:name=".activity.PermisstionActivity" />
+        <activity android:name=".activity.content.ContentResolverActivity" />
+
+        <provider
+            android:name=".activity.provider.DatabaseContentProvider"
+            android:authorities="com.example.dell.exerciseapp.provider"
+            android:enabled="true"
+            android:exported="true"></provider>
+    </application>
+
+</manifest>

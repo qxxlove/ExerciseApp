@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorOne">#FFFFFF</color>
+    <color name="colorTwo">#FFFFF0</color>
+    <color name="colorThree">#FFFF00</color>
+    <color name="colorFour">#FFFFE0</color>
+    <color name="colorFive">#FFFAFA</color>
+    <color name="colorSix">#FFFAF0</color>
+    <color name="colorSeven">#FFFACD</color>
+    <color name="colorEight">#FFF8DC</color>
+    <color name="colorNine">#FFF68F</color>
+    <color name="colorTen">#FFF68F</color>
+    <color name="colorEleven">#FFF68F</color>
+    <color name="colorTwelve">#FFF68F</color>
+    <color name="colorThirteen">#FFF68F</color>
+    <color name="colorFourteen">#FFF68F</color>
+    <color name="colorFifteen">#FFF68F</color>
+    <color name="colorSixteen">#FFF68F</color>
+    <color name="colorSeventeen">#FFD39B</color>
+    <color name="colorEighteen">#FFF68F</color>
+    <color name="colorNineTeen">#FFB6C1</color>
+    <color name="colorTwenty">#FFA07A	</color>
+    <color name="colorTwentyOne">#FFAEB9</color>
+    <color name="colorTwentyTwo">#FFEC8B</color>
+    <color name="colorTwentyThree">#FFF5EE</color>
+    <color name="colorTwentyFour">#FAFAEA</color>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

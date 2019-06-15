@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorNineTeen"
+    tools:context="com.example.dell.exerciseapp.MainActivity">
+
+
+    <TextView
+        android:id="@+id/text_recyclerView_one"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="控件之RecyclerView"
+        android:gravity="center"
+        android:background="@color/colorFive"
+        />
+
+    <TextView
+        android:id="@+id/text_braocast_one"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="工具之BroadCast"
+        android:gravity="center"
+        android:background="@color/colorFive"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/text_fragment_one"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="控件之Fragment"
+        android:gravity="center"
+        android:background="@color/colorFive"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/text_sharedPreference_one"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="存储之SharedPreference"
+        android:gravity="center"
+        android:background="@color/colorFive"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/text_DBActivity_one"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="存储之DB"
+        android:gravity="center"
+        android:background="@color/colorFive"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/text_file_path_one"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="存储路径之Path"
+        android:gravity="center"
+        android:background="@color/colorFive"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/text_content_resolver"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="工具之ContentResolver"
+        android:gravity="center"
+        android:background="@color/colorFive"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+</LinearLayout>

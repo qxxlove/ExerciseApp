@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.exerciseapp.activity.DBTwoActivity">
+
+    <TextView
+        android:id="@+id/text_Sql_insert"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="模拟数据"
+        android:gravity="center"
+        android:background="@color/colorFifteen"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/text_Sql_raw"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="查询数据之SQL"
+        android:gravity="center"
+        android:background="@color/colorFifteen"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/text_API_raw"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="查询数据之API"
+        android:gravity="center"
+        android:background="@color/colorFifteen"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/text_listView_page"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="listview 分页加载数据库"
+        android:gravity="center"
+        android:background="@color/colorFifteen"
+        android:layout_marginTop="10dp"
+        />
+
+    <ListView
+        android:id="@+id/listView_dbTwoActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp_10">
+
+    </ListView>
+
+</LinearLayout>
