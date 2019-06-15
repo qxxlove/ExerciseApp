@@ -38,6 +38,10 @@ public class MyDBHelper extends SQLiteOpenHelper {
         String sql = "create table "+DBConfig.TABLE_NAME+"("+DBConfig.KEY_ID+" Integer primary key, "
                 +DBConfig.KEY_NAME+" Varchar(100),"+DBConfig.KEY_AGE+" Integer)";
         sqLiteDatabase.execSQL(sql);
+        String sql1 = "create table "+DBConfig.TABLE_NAME_BOOK+"("+DBConfig.KEY_BOOK_ID+" Integer primary key, "
+                +DBConfig.KEY_BOOK_NAME+" Varchar(100),"+DBConfig.KEY_BOOK_AUTHOR+" Varchar(100),"
+                +DBConfig.KEY_BOOK_PAGE+" Varchar(100),"+DBConfig.KEY_BOOK_PRICE+" Varchar(100))";
+        sqLiteDatabase.execSQL(sql1);
     }
 
     /**

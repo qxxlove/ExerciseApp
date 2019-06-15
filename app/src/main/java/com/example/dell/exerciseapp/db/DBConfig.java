@@ -19,4 +19,16 @@ public class DBConfig  {
      public static final String  KEY_NAME_G = "name";
      public static final String   KEY_AGE_G = "age";
 
+    /**表名*/
+    public static final String  TABLE_NAME_BOOK = "book";
+    public static final String  TABLE_NAME_CATEGORY = "category";
+
+    public static final String  KEY_BOOK_ID= "id";
+    public static final String  KEY_BOOK_NAME= "name";
+    public static final String  KEY_BOOK_AUTHOR = "author";
+    public static final String   KEY_BOOK_PAGE = "page";
+    public static final String   KEY_BOOK_PRICE = "price";
+
+
+
 }

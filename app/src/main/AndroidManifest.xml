@@ -68,7 +68,9 @@
             android:name=".activity.provider.DatabaseContentProvider"
             android:authorities="com.example.dell.exerciseapp.provider"
             android:enabled="true"
-            android:exported="true"></provider>
+            android:exported="true" />
+
+        <activity android:name=".activity.provider.ProviderContentActivity"></activity>
     </application>
 
 </manifest>
